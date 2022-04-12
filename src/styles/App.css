@@ -23,13 +23,43 @@
   font-weight: bold;
 }
 
+.input-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.name-inputs {
+  margin: 5px;
+  border: 1px solid #3E00FF;
+  width: 20%;
+  height: 30px;
+  border-radius: 0.4rem;
+  text-align: center;
+}
+
+label {
+  color: white;
+  margin-top: 5px;
+}
+
+.collection-link {
+  text-decoration: none;
+  color: white;
+}
+
 .sub-text {
   font-size: 25px;
   color: white;
 }
 
+.link-button {
+  margin-top: 20px;
+}
+
 .gradient-text {
-  background: -webkit-linear-gradient(left, #60c657 30%, #35aee2 60%);
+  background: -webkit-linear-gradient(left, #3E00FF 30%, #FFF338 60%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -38,7 +68,7 @@
 .cta-button {
   height: 45px;
   border: 0;
-  width: auto;
+  width: 20%;
   padding-left: 40px;
   padding-right: 40px;
   border-radius: 5px;
@@ -49,13 +79,13 @@
 }
 
 .connect-wallet-button {
-  background: -webkit-linear-gradient(left, #60c657, #35aee2);
+  background: -webkit-linear-gradient(left, #3E00FF, #FFF338);
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
 }
 
 .mint-button {
-  background: -webkit-linear-gradient(left, #a200d6, #ff6fdf);
+  background: -webkit-linear-gradient(left, #FF0000, #49FF00);
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
   margin-right: 15px;
